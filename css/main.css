@@ -1,0 +1,60 @@
+/* Layout */
+
+body {
+  margin: auto;
+  width: 80%;
+}
+
+/* Search box */
+
+input {
+  background: rgba(255,255,255,0.1);
+  font-size: 16px;
+  height: auto;
+  margin: 30px auto;
+  outline: 0;
+  padding: 10px;
+  width: 250px;
+  background-color: #ffffff;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  border-radius: 5px;
+  border: 2px solid #f4f4f4;
+  display: block;
+}
+
+input:focus {
+  background-color: #fff;
+  border: 2px solid #232222;
+}
+
+::placeholder {
+  color: #cccccc;
+}
+
+/* Gallery */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img{
+  padding: 25px 25px;
+}
+
+/* Lightbox plugin */
+.lightbox .lb-image {
+  border: none;
+}
+
+.lb-data .lb-caption {
+  font-size: 16px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.lb-data .lb-number {
+  visibility: hidden;
+}
